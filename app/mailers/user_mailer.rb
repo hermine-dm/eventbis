@@ -12,4 +12,10 @@ class UserMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Bienvenue chez nous !') 
   end
 
+  def participate_email(attendance)
+  	@user = User.find(attendance.user_id)
+  	@event = Event.find(attendance.event_id)
+  	@url  = 'http://monsite.fr/login' 
+  	mail(to: @user.email, subject: "Vous allez participer à un evenement!") 
+  end
 end
