@@ -3,11 +3,6 @@
   
   <body id ="festival">
 
-    <div class="container">
-      <%= flash_messages %> <!-- voir applicaiton helper-->
-      <%= yield %>
-    </div>
-
     <section>
     </br></br>
       <div class="container bg-white">
@@ -27,7 +22,7 @@
               <%= f.text_field :last_name, class: "form-control" %>
             </div>
             <div class="form-group">
-              <%= f.label :Description %><br />
+              <%= f.label :Description %> <span class="text-muted"> (obligatoire) </span><br />
               <%= f.text_area :description, class: "form-control" %>
             </div>
 

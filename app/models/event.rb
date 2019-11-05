@@ -7,7 +7,7 @@ class Event < ApplicationRecord
 		presence: true
 	validates :title,
 		presence: true,
-		length: { in: 5..140, wrong_length: "5 to 140 characters is allowed" }
+		length: { in: 1..140, wrong_length: "1 to 140 characters is allowed" }
 	validates :description,
 		presence: true,
 		length: { in: 10..1000, wrong_length: "10 to 1000 characters is allowed" }

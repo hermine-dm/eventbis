@@ -34,12 +34,12 @@
                 </div>
                 <br /> 
                 <div class="col">
-                  <%= label_tag 'La durée (en minutes)' %> </br>
+                  <%= label_tag 'La durée ' %><span class="text-muted">(en minutes //par 5)</span> </br>
                   <%= text_field_tag 'event_duration', "", class: "form-control"%>
                   <div class="invalid-feedback"> Please enter a duration. </div>
                 </div>
                 <div class="col">
-                  <%= label_tag 'Le prix (en euros entier)' %> </br>
+                  <%= label_tag 'Le prix ' %> <span class="text-muted">(en euros entier)</span> </br>
                   <%= text_field_tag 'event_price', "", class: "form-control"%>
                   <div class="invalid-feedback"> Please enter a price. </div>
                 </div>
@@ -53,7 +53,7 @@
 
               <hr class="mb-4">
               <div class="mb-3">
-                <%= label_tag "Description de l'évènement" %> </br>
+                <%= label_tag "Description de l'évènement " %><span class="text-muted">(au moins 10 characters)</span> </br>
                 <%= text_area_tag 'event_description', "", class: "form-control"%> 
                 <div class="invalid-feedback" style="width: 100%;"> Title is required.</div>
               </div>
