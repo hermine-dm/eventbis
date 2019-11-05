@@ -26,7 +26,7 @@
             <p class="card-text"> organisateur : <%= User.find(event.admin_id).first_name %> <%= User.find(event.admin_id).last_name %> </p>
           </div>
           <div class="card-footer d-flex justify-content-between">
-            <div class="btn btn-primary"> <%= link_to "Plus d'informations", event_path(event.id), :class => "text-white" %>  </div>
+            <div class="btn btn-primary"> <%= link_to "Plus d'informations", "#", :class => "text-white" %>  </div>
             <div> <span class="badge badge-secondary"><%= event.attendances.to_a.size %> </span> participant(s) </div>
           </div>
         </div>
