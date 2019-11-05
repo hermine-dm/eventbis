@@ -16,7 +16,7 @@ DatabaseCleaner.clean
 
 puts "tout est détruit"
 
-20.times do 
+5.times do 
 	User.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, description: Faker::Lorem.paragraph_by_chars(number: 30), email: "#{Faker::Lorem.characters(number: 10)}@yopmail.com", password: "youhou", password_confirmation: "youhou")
 end
 puts "users créés"
