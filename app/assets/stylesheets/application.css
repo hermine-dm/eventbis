@@ -21,15 +21,14 @@
 
 #festival {
 	background-image: url('edm.jpg');
-	background-color: black;
 
 }
 
 .jumbotron {
-  background-image: url('edm.jpg');
+  background-image: url('perche.jpg');
   background-size: cover;
   min-height: 450px;
-  background-color: blue;
+  
 }
 
   

@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## voici enfin sur le nouveau site ##
+__le lien__
+https://eventbis.herokuapp.com/
 
-Things you may want to cover:
+__les fonctionnalités__
+<p> créer ton utilisateur </p>
+<p> n'oublies pas de regarder tes mails pour vérifier ton compte </p>
+<p> grace a cela, tu pourras créer un évènement, éditer ton profil (tu peux voir ceux des autres mais sans pouvoir les éditer) </p>
+<p> tu as oublié ton mdp ? pas de problème, check tes mails </p>
 
-* Ruby version
+__a venir__
+<p> participer à un évenement</p>
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
